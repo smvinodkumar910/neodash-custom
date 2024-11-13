@@ -11,3 +11,5 @@ In Dockerfile
 
     line no; 24 added ENV DASHBOARD_HEADER_BRAND_LOGO=Aptiv_logo.png
 
+3. DashboardHeader.tsx 
+line no: 54 : added hidden in the className of <nav> dag.
