@@ -13,3 +13,9 @@ In Dockerfile
 
 3. DashboardHeader.tsx 
 line no: 54 : commented line no. 54 to 58 the <nav> tag.
+
+
+
+while deploying add below parameter in cloud Run. Don't include double quote in the value just space.
+
+customHeader : "  "
