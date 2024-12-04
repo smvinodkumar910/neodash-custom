@@ -11,9 +11,16 @@
 	docker tag neo4jlabs/neodash us-central1-docker.pkg.dev/prj-edw-geocoder-1/neodash-docker-repo/neodash-editable:staging
 	
 6. docker push us-central1-docker.pkg.dev/prj-edw-geocoder-1/neodash-docker-repo/neodash-editable:staging
+	docker push us-central1-docker.pkg.dev/prj-edw-geocoder-1/neodash-docker-repo/neodash:2.4.8-custom.1
 
 7. Deploy the container in cloud Run.
 
+
+--------------------
+
+docker pull hlinneo4j2/neodash:2.4.8-custom.5
+docker tag hlinneo4j2/neodash:2.4.8-custom.5 us-central1-docker.pkg.dev/prj-edw-geocoder-1/neodash-docker-repo/neodash:2.4.8-custom.5
+docker push us-central1-docker.pkg.dev/prj-edw-geocoder-1/neodash-docker-repo/neodash:2.4.8-custom.5
 ----------------------------------------------------------------------------
 
 8. Create a standalone deployment with below environment variables.
@@ -48,3 +55,5 @@ To build custom docker image :
 docker build . -t us-central1-docker.pkg.dev/prj-edw-geocoder-1/neodash-docker-repo/neodash-custom-editable:staging
 
 docker push us-central1-docker.pkg.dev/prj-edw-geocoder-1/neodash-docker-repo/neodash-custom-editable:staging
+
+-------
