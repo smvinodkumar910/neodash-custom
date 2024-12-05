@@ -15,7 +15,7 @@ In Dockerfile
 line no: 54 : commented line no. 54 to 58 the <nav> tag.
 
 
+4. while deploying add below parameter in cloud Run. 
 
-while deploying add below parameter in cloud Run. Don't include double quote in the value just space.
-
-customHeader : "  "
+DASHBOARD_HEADER_BRAND_LOGO 
+DASHBOARD_HEADER_BRAND_LOGO_DARK

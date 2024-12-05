@@ -52,8 +52,12 @@ Next Steps :
 
 To build custom docker image :
 
-docker build . -t us-central1-docker.pkg.dev/prj-edw-geocoder-1/neodash-docker-repo/neodash-custom-editable:staging
+docker build . -t us-central1-docker.pkg.dev/prj-edw-geocoder-1/neodash-docker-repo/neodash-custom-editable:custom.1
 
-docker push us-central1-docker.pkg.dev/prj-edw-geocoder-1/neodash-docker-repo/neodash-custom-editable:staging
+docker push us-central1-docker.pkg.dev/prj-edw-geocoder-1/neodash-docker-repo/neodash-custom-editable:custom.1
 
 -------
+
+docker build . -t us-central1-docker.pkg.dev/prj-edw-geocoder-1/neodash-docker-repo/neodash:2.4.8-custom.3.1
+
+docker push us-central1-docker.pkg.dev/prj-edw-geocoder-1/neodash-docker-repo/neodash:2.4.8-custom.3.1

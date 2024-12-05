@@ -8,9 +8,10 @@ import { Typography } from '@neo4j-ndl/react';
 await StyleConfig.getInstance();
 
 
-const darklogo = "APTV_BIG.D.png";
-const lightlogo = "APTIV_BIG.png";
-
+const darklogo = "https://scr-network-tableau-viz-ext-244762339286.us-east4.run.app/aptivlogo/APTV_BIG.D.png";
+const lightlogo = "https://scr-network-tableau-viz-ext-244762339286.us-east4.run.app/aptivlogo/APTV_BIG.png";
+//const darklogo = '/APTV_BIG.D.png';
+//const lightlogo = '/APTV_BIG.png';
 
 export const NeoDashboardHeaderLogo = ({ resetApplication, isDarkMode }) => {
   const content = (
